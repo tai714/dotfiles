@@ -1,4 +1,4 @@
-vimの設定
+" vimの設定
 
 " 文字コードの指定
 set fenc=utf-8
@@ -23,4 +23,6 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 set showmatch
 " 検索をループしない
 set nowrapscan
-
+" カラースキーマ
+colorscheme hybrid
+syntax on
